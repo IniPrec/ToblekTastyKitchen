@@ -1,0 +1,112 @@
+a {
+  color: gold;
+  font-family: "Quicksand";
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+body {
+  background-color: black;
+  font-family: "Playpen Sans";
+}
+
+button {
+  background-color: gold;
+  border-radius: 8px;
+  height: 50px;
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  background-color: gold;
+}
+
+header {
+  background-color: black;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+img {
+  border: 5px solid white;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.menu {
+  color: white;
+  padding-top: 180px;
+}
+
+.menus {
+  display: flex;
+}
+
+.mnu {
+  color: black;
+}
+
+.mnu:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.name {
+  color: gold;
+  font-family: "Sacramento";
+  font-size: 59px;
+  padding-left: 40px;
+}
+
+nav {
+  display: flex;
+  font-family: "Quicksand";
+  font-size: 22px;
+  justify-content: space-between;
+}
+
+.pages {
+  padding: 15px;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sm {
+  color: black;
+}
+
+.terms {
+  color: black;
+  text-decoration: none;
+}
+
+.terms:hover {
+  color: black;
+}
+
+.trm {
+  color: black;
+  font-family: "Sacramento";
+  font-size: 40px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.trm:hover {
+  color: black;
+  text-decoration: none;
+}
