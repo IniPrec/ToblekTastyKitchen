@@ -9,6 +9,14 @@ a:hover {
 
 body {
   background-color: black;
+  color: white;
+  font-family: "Playpen Sans";
+}
+
+button {
+  margin-left: 50px;
+  width: 150px;
+  height: 50px;
 }
 
 footer {
@@ -17,28 +25,37 @@ footer {
 }
 
 header {
-  background-color: #fff;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  padding: 20px;
+  background-color: black;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.2);
+  padding: 17px;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 99%;
   z-index: 100;
+}
+
+hr {
+  border: 0.2px solid gold;
+}
+
+img {
+  padding-top: 190px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .name {
   color: gold;
   font-family: "Sacramento";
   font-size: 59px;
-  padding-left: 40px;
+  cursor: context-menu;
 }
 
 nav {
-  display: flex;
   font-family: "Quicksand";
   font-size: 22px;
-  justify-content: space-between;
+  text-align: center;
 }
 
 .pages {
@@ -48,6 +65,7 @@ nav {
 
 .social-media {
   display: flex;
+  justify-content: space-between;
 }
 
 .sm {

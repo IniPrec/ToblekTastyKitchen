@@ -13,10 +13,17 @@ body {
   font-family: "Glass Antiqua";
 }
 
+button {
+  height: 50px;
+  width: 200px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
 .button {
   font-family: "Playpen Sans";
   font-size: 20px;
-  margin: 300px;
+  margin: 200px;
   text-decoration: none;
 }
 
@@ -25,15 +32,16 @@ body {
 }
 
 footer {
-  display: flex;
   background-color: gold;
+  display: flexbox;
 }
 
 h2 {
   color: #fff;
   font-family: "Quicksand";
   font-size: 50px;
-  padding-top: 180px;
+  padding-top: 170px;
+  text-align: center;
 }
 
 h4 {
@@ -44,20 +52,24 @@ h4 {
 
 header {
   background-color: black;
-  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.5);
-  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.2);
+  padding: 17px;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 99%;
   z-index: 100;
+}
+
+hr {
+  border: 0.2px solid gold;
 }
 
 img {
   border: 5px solid white;
   border-radius: 20px;
   margin-bottom: 50px;
-  margin-left: 150px;
+  margin-left: 50px;
   width: 300px;
 }
 
@@ -69,14 +81,13 @@ img {
   color: gold;
   font-family: "Sacramento";
   font-size: 59px;
-  padding-left: 40px;
+  cursor: context-menu;
 }
 
 nav {
-  display: flex;
   font-family: "Quicksand";
   font-size: 22px;
-  justify-content: space-between;
+  text-align: center;
 }
 
 p {
@@ -91,12 +102,12 @@ p {
 }
 
 .social-media {
-  display: flex;
-  justify-content: space-between;
+  padding-left: 100px;
 }
 
 .sm {
   color: black;
+  padding-left: 50px;
 }
 
 .terms {
@@ -111,7 +122,7 @@ p {
 .trm {
   color: black;
   font-family: "Sacramento";
-  font-size: 40px;
+  font-size: 20px;
   padding-left: 10px;
   text-decoration: none;
 }
